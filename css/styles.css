@@ -32,3 +32,13 @@ body {
   font-size: 8pt;
   text-align: center;
 }
+
+.modalscreen {
+  height: 480px;
+  width: 640px;
+}
+
+.modal {
+  height: 640px;
+  width: 480px;
+}
