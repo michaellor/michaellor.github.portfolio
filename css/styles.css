@@ -1,3 +1,5 @@
+/* HEADER SECTION*/
+
 .barcolor {
   background: rgba(200,200,111, 0.4) !important;
 }
@@ -23,22 +25,49 @@ img.picme {
   font-size: 12pt;
 }
 
+/* BODY SECTION*/
+
 body {
   background: rgba(219,212,191,0.7) !important;
   font-size: 11pt !important;
 }
 
-.footertext{
+/* GLYPH */
+
+.glpyhtext {
+  font-size: 16pt;
+}
+
+/* FOOTER */
+
+.footertext {
   font-size: 8pt;
   text-align: center;
 }
 
-.modalscreen {
-  height: 480px;
-  width: 640px;
+/* CAROUSEL-MODAL */
+
+.carouselimg {
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0)!important;
+  width: 80%;
+}
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.modal-body {
+  margin-top: 200px;
 }
 
 .modal {
-  height: 640px;
-  width: 480px;
+  background: none !important;
+  height: auto;
+  width: auto;
 }
