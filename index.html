@@ -1,1 +1,142 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <title>Michael Lor - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="navbar navbar-default barcolor">
+      <div class="container">
+        <img class="picme img-responsive" src="img/me.jpg">
+        <h2 class="headername">Michael Lor</h2>
+        <div class="navbar navcontact">
+          <a href="mailto:michael.vang.1985@gmail.com"><span class="glyphicon glyphicon-envelope aria-hidden=true "></span> email me</a>
+          <span class="glyphicon glyphicon-phone aria-hidden=true "></span> (503) 954-6246
+        </div>
+      </div>
+    </nav>
+    <!-- End of Header -->
+
+    <!-- About Me -->
+
+    <div class="container">
+      <h3>About Myself</h3>
+      <h4>Background</h4>
+      <p>I'm a Portland native, born and raised here in the northwest.  I'm a husband to a wonderful <a data-toggle="modal" data-target="#picmodal3"><strong>wife</strong></a> and proud father of <a data-toggle="modal" data-target="#picmodal2"><strong>three adorable children</strong></a>.</p>
+      <p>For the last four years, I worked as a wafer fab operator for a semiconductor company in the Portland metro area. I was unable to find a career job in my field of study, thus led me to reassess what I wanted out of a career and what I wanted to do in the future.
+      <p>Some of my good friends from highschool went on to pursue education in computer science in college. They all work in the tech industry and have their <em>career</em> jobs. One of my friends also runs a small marketing company with his brother, where developing websites is one of the services they provide for their clients. This provided me with a new outlook on what I wanted from a professional career, so I made the decision to go with web developing. Hopefully my skills and background in design will aid me in my pursuit of this goal.
+      <h4>Hobbies</h4>
+      <a data-toggle="modal" data-target="#picmodal"><span class="glyphicon glyphicon-picture aria-hidden=true glpyhtext"></span> click for pictures</a>
+      <p>I like living in Oregon and I wouldn't have it any different. I enjoy hiking in the gorge and fishing in Oregon's bountiful lakes, rivers, and streams. I'm an <em>avid</em> car enthusiast, part of a local car club and race gokarts with my fellow gearheads. I'm a natural artist, but lack formal art education and technique. I make up for this with the ability to translate ideas visually with pencil and paper. Photography is also something that I enjoy doing on my free time, but I'm probably <em>amateur</em> at best.</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>Education</h4>
+          <p>I attended <a href="http://www.bensonhs.pps.k12.or.us/">Benson Polytechnic High School</a> in Portland where I majored in computer science, which may have been my first foray into a code based environment. I then studied Architecture and graduated with a BA from <a href="http://www.pdx.edu">Portland State University</a> in 2010. I am currently a student in the Intro to Programming class at <a href="http://www.epicodus.com">Epicodus.</a></p>
+        </div>
+        <div class="col-sm-6">
+        <h4>Skills</h4>
+        <ul>
+          <li>10-key <em>proficient</em></li>
+          <li>Sketching</li>
+          <li>Drafting</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Google SketchUP</li>
+          <li>AutoCAD</li>
+        </div>
+      </div>
+    <!-- End of About Me -->
+
+    <!-- Projects -->
+
+    <div class="container">
+      <h3>Projects</h3>
+      <ul>
+        <li><a href="https://github.com/michaellor/EpicodusDay2/blob/master/goldfish.html"><strong>Goldfish</strong></a></li>
+        <p>This was my first project in the introductory class. It was my first application of html tags such as <em>p, li,</em> and <em>ul</em>.</p>
+        <li><a href="https://github.com/michaellor/cupcake"><strong>Cupcakes</strong></a></li>
+        <p>A project made in conjunction with <a href="http://arolling.github.io">Abigail Rolling</a> for a fictional cupcake bakery. Implements html tags like <em>&lt;a href&gt;</em> to reference external links.
+        <li><a href="https://github.com/michaellor/interior_decorator"><strong>Maria the Decorator</strong></a></li>
+        <p>A simple project for a fictional interior decorator named Maria. This project implemented elements like <em>div</em> and <em>float</em> in order to float images in text along with organizing page content into columns.</p>
+        <li><a href="https://github.com/michaellor/vacation/blob/master/index.html"><strong>Vacation</strong></a></li>
+        <p>This website was designed with <a href="http://eddieduro.github.io">Eddie Duro</a> for a vacation site. It utilizes bootstrap CSS with features such as <em>jumbotron</em> and <em>modal</em>.</p>
+      </ul>
+      <p>Other assignments and projects can be viewed at my GitHub <a href="https://github.com/michaellor">here</a>.</p>
+    </div>
+    <!-- End of Projects -->
+
+    <!-- Modal -->
+
+    <div class="modal fade" role="dialog" id="picmodal">
+      <div class="container">
+        <div class="modal-body">
+          <div id="myCarousel" class="carousel slide jumbotron">
+            <div class="container">
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src=img/picture1.jpg class="carouselimg">
+                </div>
+                <div class="item">
+                  <img src=img/picture2.jpg class="carouselimg">
+                </div>
+                <div class="item">
+                  <img src=img/picture4.jpg class="carouselimg">
+                </div>
+                <div class="item">
+                  <img src=img/picture6.jpg class="carouselimg">
+                </div>
+                <div class="item">
+                  <img src=img/picture8.jpg class="carouselimg">
+                </div>
+              </div>
+            </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span></a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" role="dialog" id="picmodal2">
+      <div class="container">
+        <div class="modal-body">
+          <div class="item">
+            <img src=img/picture5.jpg class="carouselimg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" role="dialog" id="picmodal3">
+      <div class="container">
+        <div class="modal-body">
+          <div class="item">
+            <img src=img/picture3.jpg class="carouselimg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Modals -->
+
+    <!-- Footer -->
+    <div class="container">
+      <hr>
+      <p class="footertext">Designed by Michael Lor (c) 2016 | Epicodus - 400 SW 6th Ave #800, Portland, OR 97204</p>
+    </div>
+
+    <!-- Javascript -->
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- End of Javascript -->
+
+  </body>
+</html>
